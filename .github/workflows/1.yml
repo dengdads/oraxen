@@ -26,8 +26,6 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
-    - name: Upload Oraxen
-      uses: actions/upload-oraxen
       with:
         name: Oraxen
         path: build/libs/*.jar
