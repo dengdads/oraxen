@@ -26,6 +26,3 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
-        with:
-          name: Oraxen
-          path: build/libs/*.jar
